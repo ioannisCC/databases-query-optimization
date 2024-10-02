@@ -4,7 +4,7 @@
 
 **Query 2**: The task was to find how many Greek-flagged ships exist per ship type. This was achieved by selecting the type field and grouping the results by the ship type.
 
-3**Query 3**: There were two parts:
+**Query 3**: There were two parts:
 	•	First, to identify ships that at some point exceeded a speed of 30 knots.
 	•	Second, to find the type of these ships and how many of each type existed. The DISTINCT clause was used to ensure unique ships were considered, even if a ship exceeded 30 knots multiple times.
  
