@@ -1,3 +1,4 @@
+# Queries:
 
 1.	**Query 1**: The goal was to find the number of location points (lon, lat) per calendar day and sort the result in descending order by the number of points. This was done using a SELECT statement for the required fields and a GROUP BY clause to count the location points.
 2.	**Query 2**: The task was to find how many Greek-flagged ships exist per ship type. This was achieved by selecting the type field and grouping the results by the ship type.
@@ -11,7 +12,7 @@
 
 # Optimization:
 
-	Buffers and Workers:
+**Buffers and Workers**:
 	PostgreSQL initially used 128 MB buffers, which were increased to 8 GB, leading to improved response times.
 	The number of workers was increased from 8 to 1024 to further optimize performance.
  
