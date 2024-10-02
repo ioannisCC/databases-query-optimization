@@ -6,9 +6,9 @@
 
 **Query 3**: There were two parts:
 
-	First, to identify ships that at some point exceeded a speed of 30 knots.
+First, to identify ships that at some point exceeded a speed of 30 knots.
  
-	Second, to find the type of these ships and how many of each type existed. The DISTINCT clause was used to ensure unique ships were considered, even if a ship exceeded 30 knots multiple times.
+Second, to find the type of these ships and how many of each type existed. The DISTINCT clause was used to ensure unique ships were considered, even if a ship exceeded 30 knots multiple times.
  
 **Query 4**: For passenger ships (those with types starting with “passenger”), the number of location points recorded per day during the period 14/08/2019 - 18/08/2019 was calculated. The timestamp field was used within the date range.
 
