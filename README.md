@@ -11,7 +11,7 @@
 
 **Optimization**:
 
-	*Buffers and Workers*:
+	Buffers and Workers:
 	PostgreSQL initially used 128 MB buffers, which were increased to 8 GB, leading to improved response times.
 	The number of workers was increased from 8 to 1024 to further optimize performance.
  
