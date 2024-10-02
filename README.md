@@ -9,7 +9,7 @@
 	•	The goal was to find which ships were anchored (speed zero) during the period 15/08/2019 - 18/08/2019, using a date range and condition on speed in the WHERE clause.
 	•	The second part focused on the entire period 12/08/2019 - 19/08/2019, calculating the total sum of ship speeds in that time. If the sum was less than 1, the ship was considered anchored throughout the period.
 
-#Optimization:
+# Optimization:
 
 	Buffers and Workers:
 	PostgreSQL initially used 128 MB buffers, which were increased to 8 GB, leading to improved response times.
